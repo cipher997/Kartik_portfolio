@@ -1,0 +1,194 @@
+* {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  line-height: 1.5rem;
+}
+@font-face {
+  font-family: "Bricyte";
+  src: url(fonts/Bricyte\ Howela.otf);
+}
+#header {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./images/DSC_0747\ 1-01.jpeg);
+  height: 100vh;
+  background-size: 200vh;
+  background-position: center;
+  box-shadow: 10px 10px 5px rgb(0.1, 0.1, 0.1, 0.2);
+
+  background-attachment: fixed;
+}
+
+.nav-item-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-menu {
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  display: none;
+}
+
+/*--------Welcome Text------*/
+.welcome {
+  text-align: center;
+  padding: 10px;
+  margin-top: 350px;
+  background-color: #fff;
+  box-shadow: 0 0 20px 7px rgba(0, 0, 0, 0.2);
+  opacity: 0.3;
+  box-shadow: 10px 10px 5px rgb(0.1, 0.5, 0.5, 0.5);
+}
+.welcome h1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
+  font-family: "Bricyte", sans-serif;
+  font-size: 6em;
+  font-style: italic;
+  font-weight: 500;
+}
+.welcome h6 {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: black;
+}
+.welcome p {
+  font-size: 1em;
+  font-weight: 600;
+  color: #000000;
+}
+.welcome .home-btn {
+  margin-top: 10px;
+  padding: 10px 30px;
+  border-radius: 30px;
+  color: #fff;
+  background-color: #22272c;
+}
+.welcome .btn:focus {
+  box-shadow: none;
+}
+
+/*-------------------About----------*/
+#about {
+  padding-top: 75px;
+  padding-bottom: 75px;
+  margin: 0.5px;
+  text-align: justify;
+}
+
+/* #about .col-md-6 {
+  padding: 5px;
+} */
+
+#about h3 {
+  margin: 20px;
+}
+
+.text-light-text {
+  width: 0ch;
+  overflow: hidden;
+  margin-left: 40%;
+  white-space: nowrap;
+  animation: text 8s infinite alternate;
+}
+
+@keyframes text {
+  0% {
+    width: 0ch;
+  }
+  50% {
+    width: 21ch;
+  }
+}
+
+/* services */
+#kk .home-btn {
+  margin-top: 10px;
+  margin-left: 1px;
+  padding: 10px;
+  color: #fff;
+  border-radius: 30px;
+  background-color: #22272c;
+}
+
+#services {
+  background-color: #000000;
+  padding-top: 50px;
+  color: #fff;
+  padding-bottom: 5px;
+  background: url(./images/thomas-tastet-hSODeSbvzE0-unsplash.jpg);
+  background-size: 65%;
+  box-shadow: 10px 10px 5px rgb(0.1, 0.1, 0.1, 0.2);
+}
+#services .col-md-4 {
+  padding: 20px;
+}
+#services .col-md-4 h4 {
+  padding: 5px;
+}
+#services .col-md-4 img {
+  width: 50px;
+}
+#services .col-md-4 p {
+  padding: 5px;
+  text-align: justify;
+}
+
+/* contact us */
+.location {
+  width: 80%;
+  margin: auto;
+  padding: 80px 0;
+}
+.location iframe {
+  width: 100%;
+}
+
+.footer {
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+}
+.footer h4 {
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+.contact-col input,
+.contact-col textarea {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 17px;
+  outline: none;
+  border: 1px solid #ccc;
+}
+.contact-col {
+  flex-basis: 48%;
+  margin-bottom: 30px;
+}
+
+.bb {
+  display: inline-block;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  border: 1px solid rgb(0, 0, 0);
+  padding: 12px 34px;
+  font-size: 13px;
+  background: black;
+  position: relative;
+  cursor: pointer;
+  border-radius: 30px;
+}
+.bb:hover {
+  border: 1px solid #000000;
+  color: #000000;
+  background: #ffffff;
+  transition: 0.5s;
+}
+.anil {
+  font-size: 25px;
+}
